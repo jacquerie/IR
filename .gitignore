@@ -1,6 +1,17 @@
+# Ignore LaTeX stuff.
+
 slide.aux
 slide.log
 slide.nav
 slide.out
 slide.snm
 slide.toc
+
+# Ignore home folder dotfiles.
+
+.bashrc
+.bash_history
+.bash_logout
+.profile
+.viminfo
+.vimrc
