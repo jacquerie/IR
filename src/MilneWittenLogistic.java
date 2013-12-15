@@ -28,7 +28,7 @@ public class MilneWittenLogistic extends RelatednessMeasure {
         float denominator = (float) Math.log(wikipediaSize) - (float) Math.log(Math.min(inFirst.length, inSecond.length));
         float result = numerator / denominator;
 
-        return ((float) 2 / ((float) 1 + Math.exp(result)) - 1);
+        return ((float) 2 / ( 1 + (float) Math.exp(-result)) - (float) 1);
     }
 
     private Set<Integer> toSet (int[] arr) {
