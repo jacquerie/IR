@@ -13,6 +13,10 @@ public class MilneWittenArctan extends RelatednessMeasure {
 
     @Override
     public float rel (int first, int second) {
+        if (first == second) {
+            return 1.0f;
+        }
+
         int[] inFirst = IRProjectHelper.getInlinks(first);
         int[] inSecond = IRProjectHelper.getInlinks(second);
         int wikipediaSize = IRProjectHelper.getWikipediaSize();
