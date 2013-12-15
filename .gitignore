@@ -16,3 +16,6 @@ slide.toc
 .viminfo
 .vimrc
 .gitconfig
+
+# Ignore generated binaries
+bin/
