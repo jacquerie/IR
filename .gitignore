@@ -16,6 +16,7 @@ slide.toc
 .viminfo
 .vimrc
 .gitconfig
+.Xauthority
 
 # Ignore generated binaries
 bin/
