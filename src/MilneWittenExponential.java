@@ -28,12 +28,14 @@ public class MilneWittenExponential extends RelatednessMeasure {
         float denominator = (float) Math.log(wikipediaSize) - (float) Math.log(Math.min(inFirst.length, inSecond.length));
         float result = numerator / denominator;
 
-        if (result == 0.0f) {
+        if (Math.abs(result) < EPS) {
             return result;
         } else {
             return ((float) Math.exp(-1/result));
         }
     }
+
+    private static final float EPS = 0.000001f;
 
     private Set<Integer> toSet (int[] arr) {
         Set<Integer> result = new HashSet<Integer>();
