@@ -1,14 +1,14 @@
 import it.acubelab.tagme.RelatednessMeasure;
 
-public class MeanRel extends RelatednessMeasure {
+public class Dummy extends RelatednessMeasure {
 
-    public MeanRel (String lang) {
+    public Dummy (String lang) {
         super(lang);
     }
 
     @Override
     public float rel (int a, int b) {
-        return 0.596429f;
+        return 0.0f;
     }
 
 }
