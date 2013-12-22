@@ -24,7 +24,7 @@ public class MilneWittenTruncated extends RelatednessMeasure {
         Set<Integer> intersection = getIntersection(inFirst, inSecond);
         int intersectionSize = intersection.size() == 0 ? 1 : intersection.size();
 
-        float numerator = (float) Math.log(Math.max(inFirst.length, inSecond.length) - (float) Math.log(intersectionSize));
+        float numerator = (float) Math.log(Math.max(inFirst.length, inSecond.length)) - (float) Math.log(intersectionSize);
         float denominator = (float) Math.log(wikipediaSize) - (float) Math.log(Math.min(inFirst.length, inSecond.length));
         float result = numerator / denominator;
 
