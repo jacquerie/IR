@@ -1,6 +1,4 @@
 import java.lang.Math;
-import java.util.Set;
-import java.util.HashSet;
 
 import irproject.IRProjectHelper;
 import it.acubelab.tagme.RelatednessMeasure;
@@ -20,9 +18,7 @@ public class MilneWittenArctan extends RelatednessMeasure {
         int[] inFirst = IRProjectHelper.getInlinks(first);
         int[] inSecond = IRProjectHelper.getInlinks(second);
         int wikipediaSize = IRProjectHelper.getWikipediaSize();
-
-        Set<Integer> intersection = getIntersection(inFirst, inSecond);
-        int intersectionSize = intersection.size() == 0 ? 1 : intersection.size();
+        int intersectionSize = getIntersectionSize(inFirst, inSecond);
 
         float numerator = (float) Math.log(Math.max(inFirst.length, inSecond.length)) - (float) Math.log(intersectionSize);
         float denominator = (float) Math.log(wikipediaSize) - (float) Math.log(Math.min(inFirst.length, inSecond.length));
@@ -31,22 +27,23 @@ public class MilneWittenArctan extends RelatednessMeasure {
         return ((float) (2 / Math.PI)) * ((float) Math.atan(result));
     }
 
-    private Set<Integer> toSet (int[] arr) {
-        Set<Integer> result = new HashSet<Integer>();
-
-        for (int i = 0; i < arr.length; i++) {
-            result.add(arr[i]);
+    private int getIntersectionSize (int[] A, int[] B) {
+        int i = 0, j = 0;
+        int result = 0;
+        
+        while (i < A.length && j < B.length) {
+            if (A[i] == B[j]) {
+                result++;
+                i++;
+                j++;
+            } else if (A[i] > B[j]) {
+                j++;
+            } else {
+                i++;
+            }
         }
 
-        return result;
-    }
-
-    private Set<Integer> getIntersection (int[] A, int[] B) {
-        Set<Integer> result = toSet(A);
-        Set<Integer> difference = toSet(B);
-        result.retainAll(difference);
-
-        return result;
+        return result == 0 ? 1 : result;
     }
 
 }
