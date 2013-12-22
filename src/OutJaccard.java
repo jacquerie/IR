@@ -1,6 +1,3 @@
-import java.util.Set;
-import java.util.HashSet;
-
 import irproject.IRProjectHelper;
 import it.acubelab.tagme.RelatednessMeasure;
 
@@ -15,34 +12,28 @@ public class OutJaccard extends RelatednessMeasure {
         int[] outFirst = IRProjectHelper.getOutlinks(first);
         int[] outSecond = IRProjectHelper.getOutlinks(second);
 
-        Set<Integer> intersection = getIntersection(outFirst, outSecond);
-        Set<Integer> union = getUnion(outFirst, outSecond);
-        return ((float) intersection.size()) / ((float) union.size());
+        int intersectionSize = getIntersectionSize(outFirst, outSecond);
+        int unionSize = outFirst.length + outSecond.length - intersectionSize;
+
+        return (float) intersectionSize / (float) unionSize;
     }
 
-    private Set<Integer> toSet (int[] arr) {
-        Set<Integer> result = new HashSet<Integer>();
-
-        for (int i = 0; i < arr.length; i++) {
-            result.add(arr[i]);
+    private int getIntersectionSize (int[] A, int[] B) {
+        int i = 0, j = 0;
+        int result = 0;
+        
+        while (i < A.length && j < B.length) {
+            if (A[i] == B[j]) {
+                result++;
+                i++;
+                j++;
+            } else if (A[i] > B[j]) {
+                j++;
+            } else {
+                i++;
+            }
         }
 
-        return result;
-    }
-
-    private Set<Integer> getIntersection (int[] A, int[] B) {
-        Set<Integer> result = toSet(A);
-        Set<Integer> difference = toSet(B);
-        result.retainAll(difference);
-
-        return result;
-    }
-
-    private Set<Integer> getUnion (int[] A, int[] B) {
-        Set<Integer> result = toSet(A);
-        Set<Integer> missing = toSet(B);
-        result.addAll(missing);
-    
         return result;
     }
 
