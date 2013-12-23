@@ -1,5 +1,3 @@
-import java.lang.Math;
-
 import irproject.IRProjectHelper;
 import it.acubelab.tagme.RelatednessMeasure;
 
@@ -17,20 +15,16 @@ public class MilneWittenTruncated extends RelatednessMeasure {
 
         int[] inFirst = IRProjectHelper.getInlinks(first);
         int[] inSecond = IRProjectHelper.getInlinks(second);
+
         int wikipediaSize = IRProjectHelper.getWikipediaSize();
-        int intersectionSize = getIntersectionSize(inFirst, inSecond);
+        int realIntersectionSize = getIntersectionSize(inFirst, inSecond);
+        int intersectionSize = (realIntersectionSize == 0) ? 1 : realIntersectionSize;
 
         float numerator = (float) Math.log(Math.max(inFirst.length, inSecond.length)) - (float) Math.log(intersectionSize);
         float denominator = (float) Math.log(wikipediaSize) - (float) Math.log(Math.min(inFirst.length, inSecond.length));
         float result = numerator / denominator;
 
-        if (result < 0.0f) {
-            return 0.0f;
-        } else if (result > 1.0f) {
-            return 1.0f;
-        } else {
-            return result;
-        }
+        return Math.min(result, 1.0f);
     }
 
     private int getIntersectionSize (int[] A, int[] B) {
@@ -49,7 +43,7 @@ public class MilneWittenTruncated extends RelatednessMeasure {
             }
         }
 
-        return result == 0 ? 1 : result;
+        return result;
     }
 
 }
