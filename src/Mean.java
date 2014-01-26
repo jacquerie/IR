@@ -8,7 +8,7 @@ public class Mean extends RelatednessMeasure {
 
     @Override
     public float rel (int a, int b) {
-        return 0.591f;
+        return 0.503f;
     }
 
 }

@@ -8,7 +8,7 @@ public class Main {
         TagmeConfig.init("/home/irproject/config.xml");
         String groupName = "group3";
         String groupPw = "7dGHlSa";
-        RelatednessMeasure rel = new MilneWittenBoosted("en");
+        RelatednessMeasure rel = new Mean("en");
         IRProjectExperiments.dumpRelatednessExperiment(groupName, rel);
         // IRProjectExperiments.launchTagMeExperiment(groupName, groupPw, rel);
         // IRProjectExperiments.launchRelatednessExperiment(groupName, groupPw, rel);
