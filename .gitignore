@@ -19,4 +19,5 @@ slide.toc
 .Xauthority
 
 # Ignore generated binaries
+
 bin/
