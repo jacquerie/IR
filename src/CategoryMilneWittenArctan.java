@@ -17,11 +17,11 @@ public class CategoryMilneWittenArctan extends RelatednessMeasure {
 
         int[] categoryFirst = IRProjectHelper.getCategories(first);
         int[] categorySecond = IRProjectHelper.getCategories(second);
-        int wikipediaSize = 58586;
+        int categorySize = 1864954;
         int intersectionSize = getIntersectionSize(categoryFirst, categorySecond);
 
         float numerator = (float) Math.log(Math.max(categoryFirst.length, categorySecond.length)) - (float) Math.log(intersectionSize);
-        float denominator = (float) Math.log(wikipediaSize) - (float) Math.log(Math.min(categoryFirst.length, categorySecond.length));
+        float denominator = (float) Math.log(categorySize) - (float) Math.log(Math.min(categoryFirst.length, categorySecond.length));
         float result = numerator / denominator;
 
         return ((float) (2 / Math.PI)) * ((float) Math.atan(result));

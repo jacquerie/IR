@@ -17,7 +17,7 @@ public class CategoryMilneWittenExponential extends RelatednessMeasure {
 
         int[] categoryFirst = IRProjectHelper.getCategories(first);
         int[] categorySecond = IRProjectHelper.getCategories(second);
-        int categorySize = 58586;
+        int categorySize = 1864954;
         int intersectionSize = getIntersectionSize(categoryFirst, categorySecond);
 
         float numerator = (float) Math.log(Math.max(categoryFirst.length, categorySecond.length)) - (float) Math.log(intersectionSize);
