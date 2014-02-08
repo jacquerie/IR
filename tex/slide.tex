@@ -6,6 +6,9 @@
 \usepackage{tikz}
 
 \usetheme{Copenhagen}
+\setbeamertemplate{navigation symbols}{}
+\tikzstyle{blue}=[circle,fill=blue!100,inner sep=0pt,minimum size=8pt]
+\tikzstyle{red}=[circle,fill=red!100,inner sep=0pt,minimum size=8pt]
 
 \title{Probability}
 \author[Jacopo Notarstefano]{
@@ -40,16 +43,46 @@
             we are done throwing all the balls, what's the expected number of bins with
             both a blue and a red ball?
         \end{problem}
+        \begin{figure}
+            \makebox[\textwidth][c]{
+                \begin{tikzpicture}
+                    \draw [very thick] (2,0.75) -- (2,0) -- (8,0) -- (8,0.75);
+                    \draw [very thick] (3,0.75) -- (3,0);
+                    \draw [very thick] (4,0.75) -- (4,0);
+                    \draw [very thick] (5,0.75) -- (5,0);
+                    \draw [very thick] (6,0.75) -- (6,0);
+                    \draw [very thick] (7,0.75) -- (7,0);
+
+                    \node (r1) at (3.33, 0.25) [red] {};
+                    \node (r2) at (5.33, 0.25) [red] {};
+                    \node (r3) at (6.33, 0.25) [red] {};
+
+                    \node (b1) at (3.66, 0.50) [blue] {};
+                    \node (b2) at (7.33, 0.25) [blue] {};
+
+                    \node (r) at (1.5,1.5) [inner sep=0pt] {};
+                    \node (b) at (8.5,1.5) [inner sep=0pt] {};
+
+                    \draw [->] (r) -- (r1);
+                    \draw [->] (r) -- (r2);
+                    \draw [->] (r) -- (r3);
+                    
+                    \draw [->] (b) -- (b1);
+                    \draw [->] (b) -- (b2);
+                \end{tikzpicture}
+            }
+        \end{figure}
     \end{frame}
 
     \begin{frame}{Balls and bins, 2/2}
         \begin{solution}
-            \textbf{If all throws are independent}, then, by linearity of expectation,
+            If \textbf{all throws are independent}, then, by linearity of expectation,
             we have
             \[
-                \mathrm{E}[\vert N_1\cap N_2\vert] = \sum_{i,j=1}^{n_1,n_2}{\mathrm{E}[I_{ij}]} = n_{1}n_{2}\sum_{i=1}^{W}{p_{i}^2} = \mathbf{P}
+                \mathrm{E}[\vert N_1\cap N_2\vert] = \sum_{i,j=1}^{n_1,n_2}{\mathrm{E}[I_{ij}]} = n_{1}n_{2}\sum_{i=1}^{W}{p_{i}^2} = n_{1}n_{2}\mathbf{P}
             \]
-            where 
+            where \(I_{ij}\) is random indicator variable denoting that red ball \(i\)
+            and blue ball \(j\) landed in the same bin.
         \end{solution}
     \end{frame}
 
