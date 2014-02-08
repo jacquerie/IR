@@ -5,10 +5,10 @@ mentre src/WeightedInJaccard.java contiene un algoritmo che, seppur meno
 raffinato, ottiene un migliore score F1.
 
 Date due pagine, l'algoritmo di Probability.java prova a stimare il
-numero di pagine linkate da entrambe. Cio' viene ottenuto modellando il
+numero di pagine linkate da entrambe. Ciò viene ottenuto modellando il
 problema come l'aggiunta di due nuovi nodi al grafo di Wikipedia secondo
 il modello di accrescimento di Barabási–Albert. In questo modello una
-nuova pagina linka con probabilita' maggiore una pagina con numero di link
+nuova pagina linka con probabilità maggiore una pagina con numero di link
 entranti maggiore. Il numero di pagine linkato da entrambe viene stimato
 semplificando il problema aggiungendo un'ipotesi d'indipendenza. A questo
 punto la differenza fra il valore atteso e il valore stimato viene
@@ -19,7 +19,7 @@ L'algoritmo di WeightedInJaccard.java calcola invece l'indice di Jaccard sui
 link in ingresso delle due pagine. Per far pesare di meno le pagine da cui
 escono molti link viene introdotto un fattore correttivo ispirato all'idf.
 Interpretiamo infatti ogni pagina come un documento di collezione D, i cui
-termini sono i link entranti. Il riscalamento cosi' introdotto migliora
+termini sono i link entranti. Il riscalamento così introdotto migliora
 leggermente lo score F1, a prezzo però di un incremento massiccio nel tempo
 di calcolo, effetto mitigato da una cache mantenuta in memoria principale degli
 score idf.
