@@ -2,15 +2,15 @@
 
 Il codice dell'implementazione presentata si trova in src/Probability.java,
 mentre src/WeightedInJaccard.java contiene un algoritmo che, seppur meno
-raffinato, ottiene un migliore score F1.
+raffinato, ottiene un miglior score F1.
 
 Date due pagine, l'algoritmo di Probability.java prova a stimare il
 numero di pagine linkate da entrambe. Ciò viene ottenuto modellando il
 problema come l'aggiunta di due nuovi nodi al grafo di Wikipedia secondo
-il modello di accrescimento di Barabási–Albert. In questo modello una
-nuova pagina linka con probabilità maggiore una pagina con numero di link
-entranti maggiore. Il numero di pagine linkato da entrambe viene stimato
-semplificando il problema aggiungendo un'ipotesi d'indipendenza. A questo
+il modello di accrescimento di Barabási–Albert, in cui una nuova pagina
+linka con probabilità maggiore una pagina con numero di link entranti
+maggiore. Il numero di pagine linkato da entrambe viene stimato
+semplificando il problema aggiungendo un'ipotesi d'indipendenza, e a questo
 punto la differenza fra il valore atteso e il valore stimato viene
 riscalata fra 0 e 1 con un'approssimazione trovata empiricamente della
 funzione di ripartizione. Maggiori dettagli si trovano nel file slide.pdf
@@ -38,7 +38,7 @@ La rule `make run` esegue il run richiesto.
 
 La rule `make score`, se eseguita configurando il programma nella modalità di
 testing, produce il risultato stimato del run sul dataset
-WikipediaSimilarity41.
+WikipediaSimilarity411.
 
 ## Licenza ##
 
