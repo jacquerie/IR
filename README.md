@@ -13,7 +13,8 @@ entranti maggiore. Il numero di pagine linkato da entrambe viene stimato
 semplificando il problema aggiungendo un'ipotesi d'indipendenza. A questo
 punto la differenza fra il valore atteso e il valore stimato viene
 riscalata fra 0 e 1 con un'approssimazione trovata empiricamente della
-funzione di ripartizione.
+funzione di ripartizione. Maggiori dettagli si trovano nel file slide.pdf
+in questa stessa cartella.
 
 L'algoritmo di WeightedInJaccard.java calcola invece l'indice di Jaccard sui
 link in ingresso delle due pagine. Per far pesare di meno le pagine da cui
