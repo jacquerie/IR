@@ -14,6 +14,7 @@ score:
 	@mkdir tmp
 	@make run > tmp/data.raw
 	@sed -i s/[^0-9\.\ ]//g tmp/data.raw
+	@sed -i '1,16d' tmp/data.raw
 	@awk -f awk/score.awk tmp/data.raw
 	@rm -r tmp
 
