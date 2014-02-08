@@ -1,12 +1,13 @@
 \documentclass[12pt]{beamer}
 
 \usepackage[english]{babel}
+\usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage{tikz}
 
 \usetheme{Copenhagen}
 
-\title{Category Jaccard averaged on the Outlinks}
+\title{Probability}
 \author[Jacopo Notarstefano]{
     Jacopo Notarstefano\\
     \texttt{jacopo.notarstefano [at] gmail.com}
@@ -18,49 +19,45 @@
         \titlepage
     \end{frame}
 
-    \begin{frame}{Category Jaccard}
-        \begin{definition}[Category Jaccard]
-            Let \(p_1\) and \(p_2\) be two pages and let \(C_1\) and \(C_2\)
-            be, respectively, their list of categories. Then their Category
-            Jaccard similarity is
-            \[
-                J_C(p_1, p_2) = \frac{|C_1\cap C_2|}{|C_1\cup C_2|}\text{.}
-            \]
-        \end{definition}
+    \begin{frame}{Main ideas}
+        \begin{enumerate}
+            \item Given two pages, we want to estimate how many pages would be linked
+            by both if links were created randomly.
+            \item If the actual number is smaller, then we conclude that those pages
+            are not related. If it's bigger, we assign a score between \(0\) and \(1\).
+            \item This estimate depends on how we model random link creation between
+            pages.
+        \end{enumerate}
     \end{frame}
 
-    \begin{frame}{Category Jaccard averaged on the Outlinks}
-        \begin{definition}[Category Jaccard averaged on the Outlinks]
-            Let \(p_1\) and \(p_2\) be two pages and let \(O^1\) and \(O^2\) be,
-            respectively, their list of linked pages. Then their
-            Category Jaccard similarity averaged on the Outlinks is
-            \[
-                \text{AVG}_{J_C}(p_1, p_2) = \frac{\sum{J_C(O^1_i, O^2_j)}}{|O^1|\cdot|O^2|}\text{.}
-            \]
-        \end{definition}
+    \begin{frame}{The Barabási–Albert model}
     \end{frame}
 
+    \begin{frame}{Balls and bins, 1/2}
+        \begin{problem}
+            Suppose that we have \(W\) bins, \(n_1\) red balls and \(n_2\) blue balls.
+            When we throw a ball it falls in bin \(i\) with probability \(p_i\). When
+            we are done throwing all the balls, what's the expected number of bins with
+            both a blue and a red ball?
+        \end{problem}
+    \end{frame}
 
-    \begin{frame}{A picture \(\approx 2^{10}\) words}
+    \begin{frame}{Balls and bins, 2/2}
+        \begin{solution}
+            \textbf{If all throws are independent}, then, by linearity of expectation,
+            we have
+            \[
+                \mathrm{E}[\vert N_1\cap N_2\vert] = \sum_{i,j=1}^{n_1,n_2}{\mathrm{E}[I_{ij}]} = n_{1}n_{2}\sum_{i=1}^{W}{p_{i}^2} = \mathbf{P}
+            \]
+            where 
+        \end{solution}
+    \end{frame}
+
+    \begin{frame}{Results}
         \begin{figure}
-            \centering
-            \begin{tikzpicture}
-                \node (p1) at (3,2) [] {$p_1$};
-                \node (p2) at (7,2) [] {$p_2$};
-                \node (c1) at (3,2) [circle,draw=black!100,minimum size=5cm] {};
-                \node (c2) at (7,2) [circle,draw=black!100,minimum size=5cm] {};
-
-                \node (o11) at (2.5,0) [] {$O^1_1$};
-                \node (o12) at (4,1) [] {$O^1_2$};
-                \node (o13) at (5,2) [] {$O^2_1$};
-                \node (o22) at (6,1.5) [] {$O^2_2$};
-            \end{tikzpicture}
+            \makebox[\textwidth][c]{
+                \includegraphics[scale=0.35]{tex/img/nyan}
+            }
         \end{figure}
-    \end{frame}
-
-    \begin{frame}{Advantages}
-    \end{frame}
-
-    \begin{frame}{Drawbacks}
     \end{frame}
 \end{document}
