@@ -30,7 +30,7 @@ facile fare overfit sul dataset WikipediaSimilarity411.
 
 ## Manuale d'uso ##
 
-La rule 'make' del Makefile compila il programma con le impostazioni contenute
+La rule `make` del Makefile compila il programma con le impostazioni contenute
 in src/Main.java.
 
 La rule `make run` esegue il run richiesto.
@@ -42,4 +42,4 @@ WikipediaSimilarity41.
 ## Licenza ##
 
 Il codice è rilasciato con licenza MIT e sarà disponibile, allo scadere della
-data di consegna del progetto, su [Github](https://www.github.com/jacquerie/IR).
+data di consegna, su [Github](https://www.github.com/jacquerie/IR).
