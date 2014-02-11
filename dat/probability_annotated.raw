@@ -1,411 +1,822 @@
+outFirst=395 outSecond=543 expectedSize=21 actualSize=41
 diff=0.049 computed=0.726 expected=0.677 (17547, 27546) (Love, Sexual intercourse)
+outFirst=785 outSecond=837 expectedSize=64 actualSize=411
 diff=0.265 computed=1.000 expected=0.735 (30075, 6678) (Tiger, Cat)
+outFirst=785 outSecond=785 expectedSize=60 actualSize=785
 diff=0.000 computed=1.000 expected=1.000 (30075, 30075) (Tiger, Tiger)
+outFirst=371 outSecond=267 expectedSize=9 actualSize=35
 diff=0.164 computed=0.910 expected=0.746 (3778, 16861908) (Book, Paper)
+outFirst=580 outSecond=288 expectedSize=16 actualSize=42
 diff=0.154 computed=0.916 expected=0.762 (7878457, 18842281) (Computer, Computer keyboard)
+outFirst=580 outSecond=834 expectedSize=47 actualSize=38
 diff=0.758 computed=0.000 expected=0.758 (7878457, 14539) (Computer, Internet)
+outFirst=283 outSecond=754 expectedSize=20 actualSize=6
 diff=0.577 computed=0.000 expected=0.577 (46770, 13673345) (Fixed-wing aircraft, Automobile)
+outFirst=200 outSecond=754 expectedSize=14 actualSize=8
 diff=0.631 computed=0.000 expected=0.631 (30598, 13673345) (Train, Automobile)
+outFirst=481 outSecond=708 expectedSize=33 actualSize=364
 diff=0.250 computed=1.000 expected=0.750 (30003, 33094374) (Telephone, Telecommunication)
+outFirst=733 outSecond=286 expectedSize=20 actualSize=85
 diff=0.323 computed=1.000 expected=0.677 (29831, 173088) (Television, Radio broadcasting)
+outFirst=704 outSecond=286 expectedSize=19 actualSize=38
 diff=0.108 computed=0.634 expected=0.742 (19641, 173088) (Mass media, Radio broadcasting)
+outFirst=1262 outSecond=480 expectedSize=59 actualSize=8
 diff=0.685 computed=0.000 expected=0.685 (9311172, 424739) (Drug, Abuse)
+outFirst=653 outSecond=442 expectedSize=28 actualSize=48
 diff=0.093 computed=0.712 expected=0.619 (36969, 46183) (Bread, Butter)
+outFirst=135 outSecond=479 expectedSize=6 actualSize=46
 diff=0.405 computed=0.997 expected=0.592 (164491, 23501) (Cucumber, Potato)
+outFirst=230 outSecond=250 expectedSize=5 actualSize=21
 diff=0.241 computed=0.459 expected=0.700 (23315, 18403271) (Physician, Nursing)
+outFirst=95 outSecond=328 expectedSize=3 actualSize=12
 diff=0.535 computed=0.146 expected=0.681 (155526, 20646803) (Student, Professor)
+outFirst=324 outSecond=95 expectedSize=3 actualSize=1
 diff=0.462 computed=0.000 expected=0.462 (519280, 155526) (Intelligence, Student)
+outFirst=324 outSecond=63 expectedSize=2 actualSize=7
 diff=0.521 computed=0.060 expected=0.581 (519280, 19159221) (Intelligence, Stupidity)
+outFirst=114 outSecond=326 expectedSize=3 actualSize=13
 diff=0.549 computed=0.159 expected=0.708 (4918223, 19372783) (Company, Stock)
+outFirst=326 outSecond=208 expectedSize=6 actualSize=53
 diff=0.191 computed=0.999 expected=0.808 (19372783, 3736784) (Stock, Market)
+outFirst=326 outSecond=481 expectedSize=15 actualSize=3
 diff=0.162 computed=0.000 expected=0.162 (19372783, 30003) (Stock, Telephone)
+outFirst=326 outSecond=296 expectedSize=9 actualSize=3
 diff=0.131 computed=0.000 expected=0.131 (19372783, 6429) (Stock, Compact disc)
+outFirst=326 outSecond=594 expectedSize=19 actualSize=3
 diff=0.092 computed=0.000 expected=0.092 (19372783, 147676) (Stock, Jaguar Cars)
+outFirst=326 outSecond=271 expectedSize=8 actualSize=7
 diff=0.181 computed=0.000 expected=0.181 (19372783, 19196010) (Stock, Egg (food))
+outFirst=106 outSecond=266 expectedSize=2 actualSize=5
 diff=0.638 computed=0.031 expected=0.669 (257215, 484939) (Fertility, Egg)
+outFirst=326 outSecond=539 expectedSize=17 actualSize=3
 diff=0.092 computed=0.000 expected=0.092 (19372783, 18393) (Stock, Life)
+outFirst=371 outSecond=332 expectedSize=12 actualSize=48
 diff=0.247 computed=0.993 expected=0.746 (3778, 17727) (Book, Library)
+outFirst=341 outSecond=373 expectedSize=12 actualSize=43
 diff=0.162 computed=0.974 expected=0.812 (19360669, 8983183) (Bank, Money)
+outFirst=558 outSecond=319 expectedSize=17 actualSize=160
 diff=0.227 computed=1.000 expected=0.773 (33550, 11090) (Wood, Forest)
+outFirst=373 outSecond=62 expectedSize=2 actualSize=12
 diff=0.743 computed=0.172 expected=0.915 (8983183, 55336) (Money, Cash)
+outFirst=328 outSecond=135 expectedSize=4 actualSize=6
 diff=0.004 computed=0.027 expected=0.031 (20646803, 164491) (Professor, Cucumber)
+outFirst=650 outSecond=265 expectedSize=16 actualSize=12
 diff=0.023 computed=0.000 expected=0.023 (19012, 55115) (Monarch, Cabbage)
+outFirst=650 outSecond=79 expectedSize=5 actualSize=55
 diff=0.142 computed=1.000 expected=0.858 (19012, 887147) (Monarch, Queen regnant)
+outFirst=156 outSecond=194 expectedSize=2 actualSize=151
 diff=0.408 computed=1.000 expected=0.592 (47485, 47615) (King (chess), Rook (chess))
+outFirst=591 outSecond=605 expectedSize=35 actualSize=113
 diff=0.331 computed=1.000 expected=0.669 (4092, 51273) (Bishop, Rabbi)
+outFirst=1499 outSecond=917 expectedSize=135 actualSize=213
 diff=0.154 computed=1.000 expected=0.846 (16043, 9282173) (Jerusalem, Israel)
+outFirst=1499 outSecond=794 expectedSize=117 actualSize=169
 diff=0.235 computed=1.000 expected=0.765 (16043, 23267) (Jerusalem, Palestinian people)
+outFirst=154 outSecond=543 expectedSize=8 actualSize=5
 diff=0.162 computed=0.000 expected=0.162 (12178732, 27546) (Sacred, Sexual intercourse)
+outFirst=509 outSecond=543 expectedSize=27 actualSize=30
 diff=0.908 computed=0.036 expected=0.944 (5575722, 27546) (Fuck, Sexual intercourse)
+outFirst=819 outSecond=680 expectedSize=54 actualSize=28
 diff=0.862 computed=0.000 expected=0.862 (8485, 10568) (Diego Maradona, Association football)
+outFirst=680 outSecond=680 expectedSize=45 actualSize=680
 diff=0.097 computed=1.000 expected=0.903 (10568, 10568) (Association football, Association football)
+outFirst=624 outSecond=831 expectedSize=51 actualSize=252
 diff=0.319 computed=1.000 expected=0.681 (18951490, 3921) (American football, Basketball)
+outFirst=680 outSecond=400 expectedSize=26 actualSize=58
 diff=0.315 computed=0.978 expected=0.663 (10568, 29773) (Association football, Tennis)
+outFirst=400 outSecond=83 expectedSize=3 actualSize=59
 diff=0.244 computed=1.000 expected=0.756 (29773, 52664) (Tennis, Racket (sports equipment))
+outFirst=699 outSecond=356 expectedSize=24 actualSize=11
 diff=0.673 computed=0.000 expected=0.673 (34289, 24702) (Yasser Arafat, Peace)
+outFirst=699 outSecond=446 expectedSize=30 actualSize=38
 diff=0.662 computed=0.103 expected=0.765 (34289, 30636) (Yasser Arafat, Terrorism)
+outFirst=699 outSecond=702 expectedSize=48 actualSize=15
 diff=0.250 computed=0.000 expected=0.250 (34289, 14995351) (Yasser Arafat, Michael Jackson)
+outFirst=744 outSecond=306 expectedSize=22 actualSize=125
 diff=0.162 computed=1.000 expected=0.838 (18949668, 17541) (Law, Lawyer)
+outFirst=421 outSecond=322 expectedSize=13 actualSize=11
 diff=0.738 computed=0.000 expected=0.738 (21555729, 5796) (Film, Celebrity)
+outFirst=421 outSecond=186 expectedSize=7 actualSize=2
 diff=0.619 computed=0.000 expected=0.619 (21555729, 232176) (Film, Popcorn)
+outFirst=421 outSecond=72 expectedSize=2 actualSize=13
 diff=0.490 computed=0.183 expected=0.673 (21555729, 11065202) (Film, Film criticism)
+outFirst=421 outSecond=419 expectedSize=17 actualSize=50
 diff=0.193 computed=0.985 expected=0.792 (21555729, 77819) (Film, Movie theater)
+outFirst=655 outSecond=272 expectedSize=17 actualSize=44
 diff=0.120 computed=0.932 expected=0.812 (22939, 23317) (Physics, Proton)
+outFirst=655 outSecond=586 expectedSize=37 actualSize=245
 diff=0.265 computed=1.000 expected=0.735 (22939, 5180) (Physics, Chemistry)
+outFirst=274 outSecond=586 expectedSize=15 actualSize=25
 diff=0.333 computed=0.155 expected=0.488 (27667, 5180) (Space, Chemistry)
+outFirst=414 outSecond=586 expectedSize=23 actualSize=28
 diff=0.505 computed=0.049 expected=0.554 (1014, 5180) (Alcohol, Chemistry)
+outFirst=287 outSecond=267 expectedSize=7 actualSize=141
 diff=0.154 computed=1.000 expected=0.846 (32787, 12988) (Vodka, Gin)
+outFirst=287 outSecond=259 expectedSize=7 actualSize=139
 diff=0.187 computed=1.000 expected=0.813 (32787, 45189) (Vodka, Brandy)
+outFirst=93 outSecond=284 expectedSize=2 actualSize=2
 diff=0.131 computed=0.000 expected=0.131 (7984, 768413) (Drink, Ear)
+outFirst=93 outSecond=53 expectedSize=0 actualSize=0
 diff=0.596 computed=0.000 expected=0.596 (7984, 9293603) (Drink, Mouth)
+outFirst=60 outSecond=120 expectedSize=0 actualSize=6
 diff=0.623 computed=0.064 expected=0.687 (66254, 212818) (Drinking, Eating)
+outFirst=153 outSecond=289 expectedSize=4 actualSize=13
 diff=0.648 computed=0.137 expected=0.785 (73165, 83430) (Infant, Mother)
+outFirst=93 outSecond=289 expectedSize=2 actualSize=3
 diff=0.245 computed=0.020 expected=0.265 (7984, 83430) (Drink, Mother)
+outFirst=754 outSecond=754 expectedSize=55 actualSize=754
 diff=0.000 computed=1.000 expected=1.000 (13673345, 13673345) (Automobile, Automobile)
+outFirst=197 outSecond=408 expectedSize=7 actualSize=133
 diff=0.104 computed=1.000 expected=0.896 (12806, 15739) (Gemstone, Jewellery)
+outFirst=493 outSecond=107 expectedSize=5 actualSize=2
 diff=0.000 computed=0.000 expected=0.000 (155747, 262642) (Travel, Chair)
+outFirst=273 outSecond=150 expectedSize=4 actualSize=134
 diff=0.090 computed=1.000 expected=0.910 (5236, 480527) (Coast, Shore)
+outFirst=113 outSecond=46 expectedSize=0 actualSize=5
 diff=0.826 computed=0.053 expected=0.879 (238150, 556358) (Furnace, Stove)
+outFirst=723 outSecond=711 expectedSize=50 actualSize=314
 diff=0.248 computed=1.000 expected=0.752 (10646, 10843) (Food, Fruit)
+outFirst=829 outSecond=355 expectedSize=28 actualSize=19
 diff=0.710 computed=0.000 expected=0.710 (3410, 26574) (Bird, Rooster)
+outFirst=829 outSecond=122 expectedSize=9 actualSize=26
 diff=0.235 computed=0.503 expected=0.738 (3410, 198041) (Bird, Crane (bird))
+outFirst=560 outSecond=40 expectedSize=2 actualSize=2
 diff=0.646 computed=0.000 expected=0.646 (30677, 407704) (Tool, Implementation)
+outFirst=493 outSecond=754 expectedSize=36 actualSize=19
 diff=0.585 computed=0.000 expected=0.585 (155747, 13673345) (Travel, Automobile)
+outFirst=278 outSecond=144 expectedSize=3 actualSize=3
 diff=0.500 computed=0.000 expected=0.500 (419369, 22589) (Monk, Oracle)
+outFirst=395 outSecond=141 expectedSize=5 actualSize=2
 diff=0.208 computed=0.000 expected=0.208 (63752, 66986) (Cemetery, Woodland)
+outFirst=723 outSecond=355 expectedSize=25 actualSize=10
 diff=0.442 computed=0.000 expected=0.442 (10646, 26574) (Food, Rooster)
+outFirst=273 outSecond=118 expectedSize=3 actualSize=5
 diff=0.410 computed=0.028 expected=0.438 (5236, 1408983) (Coast, Hill)
+outFirst=319 outSecond=395 expectedSize=12 actualSize=6
 diff=0.185 computed=0.000 expected=0.185 (11090, 63752) (Forest, Cemetery)
+outFirst=150 outSecond=141 expectedSize=2 actualSize=4
 diff=0.279 computed=0.029 expected=0.308 (480527, 66986) (Shore, Woodland)
+outFirst=278 outSecond=1291 expectedSize=35 actualSize=12
 diff=0.092 computed=0.000 expected=0.092 (419369, 27992) (Monk, Slavery)
+outFirst=273 outSecond=319 expectedSize=8 actualSize=7
 diff=0.315 computed=0.000 expected=0.315 (5236, 11090) (Coast, Forest)
+outFirst=22 outSecond=57 expectedSize=0 actualSize=0
 diff=0.054 computed=0.000 expected=0.054 (297947, 187557) (Chord (geometry), Smile)
+outFirst=489 outSecond=197 expectedSize=9 actualSize=1
 diff=0.208 computed=0.000 expected=0.208 (12581, 25152964) (Glass, Magic (illusion))
+outFirst=355 outSecond=493 expectedSize=17 actualSize=1
 diff=0.062 computed=0.000 expected=0.062 (26574, 155747) (Rooster, Travel)
+outFirst=373 outSecond=257 expectedSize=9 actualSize=12
 diff=0.808 computed=0.034 expected=0.842 (8983183, 8100) (Money, Dollar)
+outFirst=373 outSecond=368 expectedSize=13 actualSize=220
 diff=0.096 computed=1.000 expected=0.904 (8983183, 5665) (Money, Currency)
+outFirst=373 outSecond=224 expectedSize=8 actualSize=24
 diff=0.341 computed=0.486 expected=0.827 (8983183, 192617) (Money, Wealth)
+outFirst=373 outSecond=598 expectedSize=21 actualSize=27
 diff=0.696 computed=0.061 expected=0.757 (8983183, 23626) (Money, Property)
+outFirst=373 outSecond=82 expectedSize=3 actualSize=2
 diff=0.729 computed=0.000 expected=0.729 (8983183, 24189) (Money, Possession (law))
+outFirst=373 outSecond=341 expectedSize=12 actualSize=43
 diff=0.124 computed=0.974 expected=0.850 (8983183, 19360669) (Money, Bank)
+outFirst=373 outSecond=115 expectedSize=4 actualSize=23
 diff=0.106 computed=0.667 expected=0.773 (8983183, 30873450) (Money, Deposit account)
+outFirst=373 outSecond=91 expectedSize=3 actualSize=9
 diff=0.495 computed=0.070 expected=0.565 (8983183, 19390) (Money, Money laundering)
+outFirst=785 outSecond=644 expectedSize=49 actualSize=429
 diff=0.200 computed=1.000 expected=0.800 (30075, 16217) (Tiger, Jaguar)
+outFirst=785 outSecond=503 expectedSize=38 actualSize=399
 diff=0.200 computed=1.000 expected=0.800 (30075, 11302) (Tiger, Felidae)
+outFirst=785 outSecond=350 expectedSize=27 actualSize=23
 diff=0.708 computed=0.000 expected=0.708 (30075, 6543) (Tiger, Carnivore)
+outFirst=785 outSecond=409 expectedSize=31 actualSize=41
 diff=0.523 computed=0.162 expected=0.685 (30075, 18838) (Tiger, Mammal)
+outFirst=785 outSecond=404 expectedSize=31 actualSize=17
 diff=0.700 computed=0.000 expected=0.700 (30075, 11039790) (Tiger, Animal)
+outFirst=785 outSecond=265 expectedSize=20 actualSize=17
 diff=0.477 computed=0.000 expected=0.477 (30075, 19653842) (Tiger, Organism)
+outFirst=785 outSecond=153 expectedSize=11 actualSize=10
 diff=0.562 computed=0.000 expected=0.562 (30075, 722672) (Tiger, Fauna)
+outFirst=785 outSecond=222 expectedSize=17 actualSize=24
 diff=0.495 computed=0.092 expected=0.587 (30075, 9096372) (Tiger, Zoo)
+outFirst=553 outSecond=447 expectedSize=24 actualSize=43
 diff=0.146 computed=0.662 expected=0.808 (22921, 18973869) (Psychology, Psychiatry)
+outFirst=553 outSecond=202 expectedSize=10 actualSize=24
 diff=0.378 computed=0.322 expected=0.700 (22921, 922) (Psychology, Anxiety)
+outFirst=553 outSecond=191 expectedSize=10 actualSize=21
 diff=0.479 computed=0.206 expected=0.685 (22921, 10828) (Psychology, Fear)
+outFirst=553 outSecond=526 expectedSize=28 actualSize=65
 diff=0.252 computed=0.994 expected=0.742 (22921, 8389) (Psychology, Major depressive disorder)
+outFirst=553 outSecond=98 expectedSize=5 actualSize=5
 diff=0.658 computed=0.000 expected=0.658 (22921, 832314) (Psychology, Clinic)
+outFirst=553 outSecond=230 expectedSize=12 actualSize=13
 diff=0.622 computed=0.020 expected=0.642 (22921, 23315) (Psychology, Physician)
+outFirst=553 outSecond=623 expectedSize=33 actualSize=184
 diff=0.179 computed=1.000 expected=0.821 (22921, 26743) (Psychology, Sigmund Freud)
+outFirst=553 outSecond=333 expectedSize=18 actualSize=76
 diff=0.231 computed=1.000 expected=0.769 (22921, 19378) (Psychology, Mind)
+outFirst=553 outSecond=171 expectedSize=9 actualSize=21
 diff=0.469 computed=0.254 expected=0.723 (22921, 80381) (Psychology, Health)
+outFirst=553 outSecond=634 expectedSize=34 actualSize=71
 diff=0.323 computed=0.994 expected=0.671 (22921, 26700) (Psychology, Science)
+outFirst=553 outSecond=144 expectedSize=7 actualSize=47
 diff=0.249 computed=0.997 expected=0.748 (22921, 106238) (Psychology, Cognition)
+outFirst=461 outSecond=504 expectedSize=22 actualSize=78
 diff=0.155 computed=1.000 expected=0.845 (22915, 26808) (Planet, Star)
+outFirst=461 outSecond=299 expectedSize=13 actualSize=17
 diff=0.764 computed=0.042 expected=0.806 (22915, 5267) (Planet, Constellation)
+outFirst=461 outSecond=581 expectedSize=26 actualSize=137
 diff=0.192 computed=1.000 expected=0.808 (22915, 19331) (Planet, Moon)
+outFirst=461 outSecond=608 expectedSize=27 actualSize=131
 diff=0.198 computed=1.000 expected=0.802 (22915, 26751) (Planet, Sun)
+outFirst=461 outSecond=336 expectedSize=15 actualSize=45
 diff=0.158 computed=0.969 expected=0.811 (22915, 12558) (Planet, Galaxy)
+outFirst=461 outSecond=364 expectedSize=16 actualSize=51
 diff=0.198 computed=0.990 expected=0.792 (22915, 177602) (Planet, Outer space)
+outFirst=461 outSecond=42 expectedSize=1 actualSize=12
 diff=0.608 computed=0.186 expected=0.794 (22915, 580) (Planet, Astronomer)
+outFirst=224 outSecond=447 expectedSize=9 actualSize=1
 diff=0.385 computed=0.000 expected=0.385 (23004, 18985062) (Precedent, Information)
+outFirst=224 outSecond=144 expectedSize=3 actualSize=2
 diff=0.281 computed=0.000 expected=0.281 (23004, 106238) (Precedent, Cognition)
+outFirst=224 outSecond=744 expectedSize=16 actualSize=109
 diff=0.335 computed=1.000 expected=0.665 (23004, 18949668) (Precedent, Law)
+outFirst=224 outSecond=134 expectedSize=2 actualSize=2
 diff=0.177 computed=0.000 expected=0.177 (23004, 191253) (Precedent, Social group)
+outFirst=224 outSecond=10 expectedSize=0 actualSize=3
 diff=0.569 computed=0.035 expected=0.604 (23004, 6192035) (Precedent, Antecedent (law))
+outFirst=50 outSecond=501 expectedSize=2 actualSize=3
 diff=0.637 computed=0.021 expected=0.658 (509020, 604727) (Mug, Coffee)
+outFirst=50 outSecond=618 expectedSize=3 actualSize=15
 diff=0.418 computed=0.267 expected=0.685 (509020, 1151989) (Mug, Tableware)
+outFirst=50 outSecond=188 expectedSize=0 actualSize=1
 diff=0.274 computed=0.018 expected=0.292 (509020, 584894) (Mug, Artifact (archaeology))
+outFirst=50 outSecond=223 expectedSize=1 actualSize=0
 diff=0.369 computed=0.000 expected=0.369 (509020, 1722616) (Mug, Physical body)
+outFirst=50 outSecond=93 expectedSize=0 actualSize=4
 diff=0.682 computed=0.043 expected=0.725 (509020, 7984) (Mug, Drink)
+outFirst=50 outSecond=723 expectedSize=3 actualSize=2
 diff=0.500 computed=0.000 expected=0.500 (509020, 10646) (Mug, Food)
+outFirst=50 outSecond=268 expectedSize=1 actualSize=2
 diff=0.569 computed=0.021 expected=0.590 (509020, 18993825) (Mug, Liquid)
+outFirst=644 outSecond=837 expectedSize=53 actualSize=412
 diff=0.258 computed=1.000 expected=0.742 (16217, 6678) (Jaguar, Cat)
+outFirst=594 outSecond=754 expectedSize=44 actualSize=27
 diff=0.727 computed=0.000 expected=0.727 (147676, 13673345) (Jaguar Cars, Automobile)
+outFirst=641 outSecond=39 expectedSize=2 actualSize=0
 diff=0.181 computed=0.000 expected=0.181 (9649, 214196) (Energy, Secretary)
+outFirst=86 outSecond=294 expectedSize=2 actualSize=5
 diff=0.473 computed=0.033 expected=0.506 (739237, 44417) (Minister (government), Senate)
+outFirst=641 outSecond=218 expectedSize=13 actualSize=10
 diff=0.509 computed=0.000 expected=0.509 (9649, 173351) (Energy, Laboratory)
+outFirst=580 outSecond=218 expectedSize=12 actualSize=5
 diff=0.678 computed=0.000 expected=0.678 (7878457, 173351) (Computer, Laboratory)
+outFirst=464 outSecond=112 expectedSize=5 actualSize=6
 diff=0.584 computed=0.022 expected=0.606 (33496, 66505) (Weapon, Secrecy)
+outFirst=1016 outSecond=246 expectedSize=24 actualSize=11
 diff=0.694 computed=0.000 expected=0.694 (11127, 84777) (Federal Bureau of Investigation, Fingerprint)
+outFirst=1016 outSecond=146 expectedSize=14 actualSize=1
 diff=0.831 computed=0.000 expected=0.831 (11127, 37297) (Federal Bureau of Investigation, Criminal procedure)
+outFirst=1008 outSecond=579 expectedSize=57 actualSize=54
 diff=0.294 computed=0.000 expected=0.294 (14640471, 33306) (Mars, Water)
+outFirst=1008 outSecond=433 expectedSize=42 actualSize=14
 diff=0.563 computed=0.000 expected=0.563 (14640471, 26997) (Mars, Scientist)
+outFirst=146 outSecond=16 expectedSize=0 actualSize=0
 diff=0.816 computed=0.000 expected=0.816 (20781999, 4692150) (News, Report)
+outFirst=273 outSecond=70 expectedSize=1 actualSize=3
 diff=0.729 computed=0.024 expected=0.753 (78478, 205135) (Canyon, Landscape)
+outFirst=58 outSecond=110 expectedSize=0 actualSize=2
 diff=0.431 computed=0.025 expected=0.456 (71925, 27865) (Image, Surface)
+outFirst=33 outSecond=274 expectedSize=0 actualSize=2
 diff=0.610 computed=0.024 expected=0.634 (53231, 27667) (Discovery (observation), Space)
+outFirst=193 outSecond=42 expectedSize=0 actualSize=0
 diff=0.238 computed=0.000 expected=0.238 (28130, 1134265) (Sign, Recess (break))
+outFirst=112 outSecond=146 expectedSize=1 actualSize=7
 diff=0.156 computed=0.066 expected=0.222 (54634, 20781999) (Wednesday, News)
+outFirst=189 outSecond=95 expectedSize=1 actualSize=17
 diff=0.414 computed=0.452 expected=0.866 (19159, 50510) (Mile, Kilometre)
+outFirst=580 outSecond=146 expectedSize=8 actualSize=3
 diff=0.447 computed=0.000 expected=0.447 (7878457, 20781999) (Computer, News)
+outFirst=107 outSecond=110 expectedSize=1 actualSize=2
 diff=0.512 computed=0.022 expected=0.534 (40083369, 27865) (Land, Surface)
+outFirst=131 outSecond=70 expectedSize=0 actualSize=2
 diff=0.345 computed=0.024 expected=0.369 (202899, 205135) (Atmosphere, Landscape)
+outFirst=599 outSecond=148 expectedSize=8 actualSize=3
 diff=0.300 computed=0.000 expected=0.300 (24110, 375211) (President, Medal)
+outFirst=542 outSecond=86 expectedSize=4 actualSize=9
 diff=0.761 computed=0.052 expected=0.813 (33158, 37338) (War, Soldier)
+outFirst=230 outSecond=287 expectedSize=6 actualSize=56
 diff=0.378 computed=1.000 expected=0.622 (27978, 157898) (Skin, Eye)
+outFirst=374 outSecond=1470 expectedSize=54 actualSize=30
 diff=0.650 computed=0.000 expected=0.650 (186932, 3434750) (Japanese people, United States)
+outFirst=354 outSecond=553 expectedSize=19 actualSize=11
 diff=0.391 computed=0.000 expected=0.391 (20913771, 10772350) (Theatre, History)
+outFirst=368 outSecond=47 expectedSize=1 actualSize=1
 diff=0.256 computed=0.000 expected=0.256 (30874303, 70210) (Volunteering, Motto)
+outFirst=141 outSecond=175 expectedSize=2 actualSize=4
 diff=0.537 computed=0.026 expected=0.563 (250041, 49899) (Military awards and decorations, Courage)
+outFirst=136 outSecond=355 expectedSize=4 actualSize=117
 diff=0.241 computed=1.000 expected=0.759 (5881, 34341) (Century, Year)
+outFirst=136 outSecond=134 expectedSize=1 actualSize=1
 diff=0.316 computed=0.000 expected=0.316 (5881, 21754) (Century, Nation)
+outFirst=24 outSecond=927 expectedSize=2 actualSize=0
 diff=0.119 computed=0.000 expected=0.119 (20646089, 25613) (Lag, Racism)
+outFirst=24 outSecond=146 expectedSize=0 actualSize=0
 diff=0.331 computed=0.000 expected=0.331 (20646089, 20781999) (Lag, News)
+outFirst=86 outSecond=360 expectedSize=3 actualSize=15
 diff=0.396 computed=0.267 expected=0.663 (739237, 23996) (Minister (government), Political party)
+outFirst=205 outSecond=356 expectedSize=7 actualSize=5
 diff=0.369 computed=0.000 expected=0.369 (437868, 24702) (Minority group, Peace)
+outFirst=499 outSecond=76 expectedSize=3 actualSize=10
 diff=0.575 computed=0.081 expected=0.656 (12229, 492128) (Government, Crisis)
+outFirst=20 outSecond=191 expectedSize=0 actualSize=0
 diff=0.425 computed=0.000 expected=0.425 (3758871, 159472) (Military deployment, Flight)
+outFirst=20 outSecond=21 expectedSize=0 actualSize=0
 diff=0.588 computed=0.000 expected=0.588 (3758871, 1531454) (Military deployment, Withdrawal (military))
+outFirst=31 outSecond=146 expectedSize=0 actualSize=5
 diff=0.702 computed=0.054 expected=0.756 (156659, 20781999) (Announcer, News)
+outFirst=383 outSecond=221 expectedSize=8 actualSize=6
 diff=0.703 computed=0.000 expected=0.703 (625404, 18994221) (Stroke, Hospital)
+outFirst=216 outSecond=405 expectedSize=8 actualSize=9
 diff=0.527 computed=0.020 expected=0.547 (56285, 8221) (Disability, Death)
+outFirst=106 outSecond=57 expectedSize=0 actualSize=4
 diff=0.750 computed=0.041 expected=0.791 (13311819, 239217) (Therapy, Healing)
+outFirst=117 outSecond=26 expectedSize=0 actualSize=2
 diff=0.470 computed=0.027 expected=0.497 (324572, 377828) (Academic journal, Professional association)
+outFirst=230 outSecond=22 expectedSize=0 actualSize=2
 diff=0.474 computed=0.026 expected=0.500 (23315, 46053) (Physician, Human resources)
+outFirst=230 outSecond=5 expectedSize=0 actualSize=0
 diff=0.519 computed=0.000 expected=0.519 (23315, 13212719) (Physician, Public liability)
+outFirst=5 outSecond=357 expectedSize=0 actualSize=2
 diff=0.675 computed=0.028 expected=0.703 (13212719, 15176) (Public liability, Insurance)
+outFirst=551 outSecond=327 expectedSize=17 actualSize=2
 diff=0.231 computed=0.000 expected=0.231 (42446, 77432) (Reason, Hypertension)
+outFirst=400 outSecond=47 expectedSize=1 actualSize=2
 diff=0.719 computed=0.019 expected=0.738 (407384, 64493) (100 (number), Percentage)
+outFirst=714 outSecond=764 expectedSize=53 actualSize=224
 diff=0.187 computed=1.000 expected=0.813 (18426501, 34273) (Harvard University, Yale University)
+outFirst=221 outSecond=641 expectedSize=13 actualSize=16
 diff=0.433 computed=0.030 expected=0.463 (18994221, 174521) (Hospital, Infrastructure)
+outFirst=786 outSecond=167 expectedSize=12 actualSize=14
 diff=0.480 computed=0.023 expected=0.503 (5902, 31392139) (Capital punishment, Prisoner)
+outFirst=306 outSecond=310 expectedSize=9 actualSize=96
 diff=0.331 computed=1.000 expected=0.669 (17541, 2001231) (Lawyer, Evidence (law))
+outFirst=539 outSecond=405 expectedSize=21 actualSize=47
 diff=0.127 computed=0.915 expected=0.788 (18393, 8221) (Life, Death)
+outFirst=285 outSecond=78 expectedSize=2 actualSize=1
 diff=0.325 computed=0.000 expected=0.325 (56231, 236975) (Governor, Interview)
+outFirst=309 outSecond=79 expectedSize=2 actualSize=2
 diff=0.563 computed=0.000 expected=0.563 (166346, 5165) (OPEC, Country)
+outFirst=356 outSecond=131 expectedSize=4 actualSize=0
 diff=0.369 computed=0.000 expected=0.369 (24702, 202899) (Peace, Atmosphere)
+outFirst=356 outSecond=357 expectedSize=12 actualSize=5
 diff=0.294 computed=0.000 expected=0.294 (24702, 15176) (Peace, Insurance)
+outFirst=107 outSecond=95 expectedSize=0 actualSize=1
 diff=0.510 computed=0.018 expected=0.528 (40083369, 50510) (Land, Kilometre)
+outFirst=112 outSecond=67 expectedSize=0 actualSize=5
 diff=0.594 computed=0.050 expected=0.644 (4715992, 211295) (Competition (economics), Price)
+outFirst=54 outSecond=24 expectedSize=0 actualSize=0
 diff=0.413 computed=0.000 expected=0.413 (7818, 2973525) (Consumer, Confidence)
+outFirst=54 outSecond=216 expectedSize=1 actualSize=2
 diff=0.453 computed=0.022 expected=0.475 (7818, 2935251) (Consumer, Energy industry)
+outFirst=36 outSecond=440 expectedSize=1 actualSize=0
 diff=0.238 computed=0.000 expected=0.238 (608760, 37575) (Problem, Airport)
+outFirst=754 outSecond=191 expectedSize=14 actualSize=1
 diff=0.494 computed=0.000 expected=0.494 (13673345, 159472) (Automobile, Flight)
+outFirst=158 outSecond=283 expectedSize=4 actualSize=32
 diff=0.142 computed=0.948 expected=0.806 (1698417, 17182301) (Credit (finance), Credit card)
+outFirst=158 outSecond=447 expectedSize=6 actualSize=2
 diff=0.531 computed=0.000 expected=0.531 (1698417, 18985062) (Credit (finance), Information)
+outFirst=63 outSecond=373 expectedSize=2 actualSize=1
 diff=0.594 computed=0.000 expected=0.594 (239196, 8983183) (Grocery store, Money)
+outFirst=456 outSecond=368 expectedSize=16 actualSize=0
 diff=0.181 computed=0.000 expected=0.181 (20354, 14276) (Month, Hotel)
+outFirst=290 outSecond=163 expectedSize=4 actualSize=4
 diff=0.672 computed=0.000 expected=0.672 (951407, 49402) (Bed, Closet)
+outFirst=163 outSecond=405 expectedSize=6 actualSize=1
 diff=0.800 computed=0.000 expected=0.800 (49402, 38180) (Closet, Clothing)
+outFirst=14 outSecond=163 expectedSize=0 actualSize=0
 diff=0.516 computed=0.000 expected=0.516 (1659824, 68753) (Impartiality, Attention)
+outFirst=13 outSecond=31 expectedSize=0 actualSize=0
 diff=0.225 computed=0.000 expected=0.225 (4767947, 5308) (Direction (geometry), Combination)
+outFirst=267 outSecond=22 expectedSize=0 actualSize=1
 diff=0.624 computed=0.020 expected=0.644 (199065, 2393292) (Street, Location (geography))
+outFirst=267 outSecond=46 expectedSize=1 actualSize=10
 diff=0.746 computed=0.142 expected=0.888 (199065, 1006179) (Street, Avenue (landscape))
+outFirst=267 outSecond=136 expectedSize=3 actualSize=17
 diff=0.343 computed=0.345 expected=0.688 (199065, 948686) (Street, City block)
+outFirst=267 outSecond=203 expectedSize=5 actualSize=1
 diff=0.494 computed=0.000 expected=0.494 (199065, 128987) (Street, Child)
+outFirst=448 outSecond=481 expectedSize=21 actualSize=343
 diff=0.219 computed=1.000 expected=0.781 (735672, 30003) (Cellular network, Telephone)
+outFirst=704 outSecond=316 expectedSize=21 actualSize=4
 diff=0.388 computed=0.000 expected=0.388 (19641, 29678) (Mass media, Trade)
+outFirst=704 outSecond=10 expectedSize=0 actualSize=1
 diff=0.269 computed=0.019 expected=0.288 (19641, 3371752) (Mass media, Gain (accounting))
+outFirst=224 outSecond=42 expectedSize=0 actualSize=4
 diff=0.725 computed=0.038 expected=0.763 (41930, 3648961) (Dividend, Payment)
+outFirst=90 outSecond=22 expectedSize=0 actualSize=5
 diff=0.591 computed=0.057 expected=0.648 (53696, 239121) (Division (mathematics), Calculation)
+outFirst=22 outSecond=41 expectedSize=0 actualSize=4
 diff=0.798 computed=0.046 expected=0.844 (239121, 5926) (Calculation, Computation)
+outFirst=368 outSecond=208 expectedSize=7 actualSize=47
 diff=0.247 computed=0.997 expected=0.750 (5665, 3736784) (Currency, Market)
+outFirst=309 outSecond=89 expectedSize=2 actualSize=3
 diff=0.840 computed=0.019 expected=0.859 (166346, 4207510) (OPEC, Oil)
+outFirst=89 outSecond=326 expectedSize=2 actualSize=1
 diff=0.634 computed=0.000 expected=0.634 (4207510, 19372783) (Oil, Stock)
+outFirst=257 outSecond=406 expectedSize=10 actualSize=35
 diff=0.121 computed=0.899 expected=0.778 (8100, 34392) (Dollar, Japanese yen)
+outFirst=257 outSecond=257 expectedSize=6 actualSize=257
 diff=0.000 computed=1.000 expected=1.000 (8100, 8100) (Dollar, Dollar)
+outFirst=257 outSecond=94 expectedSize=2 actualSize=0
 diff=0.738 computed=0.000 expected=0.738 (8100, 19417927) (Dollar, Profit (accounting))
+outFirst=580 outSecond=150 expectedSize=8 actualSize=65
 diff=0.150 computed=1.000 expected=0.850 (7878457, 5309) (Computer, Software)
+outFirst=942 outSecond=63 expectedSize=5 actualSize=8
 diff=0.801 computed=0.030 expected=0.831 (4122592, 21808348) (Computer network, Computer hardware)
+outFirst=481 outSecond=560 expectedSize=26 actualSize=4
 diff=0.713 computed=0.000 expected=0.713 (30003, 30677) (Telephone, Tool)
+outFirst=560 outSecond=335 expectedSize=18 actualSize=227
 diff=0.409 computed=1.000 expected=0.591 (30677, 39388) (Tool, Manufacturing)
+outFirst=150 outSecond=754 expectedSize=11 actualSize=4
 diff=0.647 computed=0.000 expected=0.647 (858665, 13673345) (Luxury goods, Automobile)
+outFirst=668 outSecond=456 expectedSize=29 actualSize=10
 diff=0.338 computed=0.000 expected=0.338 (6412297, 20354) (5 (number), Month)
+outFirst=16 outSecond=10 expectedSize=0 actualSize=0
 diff=0.363 computed=0.000 expected=0.363 (4692150, 3371752) (Report, Gain (accounting))
+outFirst=268 outSecond=579 expectedSize=15 actualSize=45
 diff=0.180 computed=0.969 expected=0.789 (18993825, 33306) (Liquid, Water)
+outFirst=774 outSecond=195 expectedSize=14 actualSize=23
 diff=0.474 computed=0.123 expected=0.597 (3850, 690345) (Baseball, Season (sports))
+outFirst=261 outSecond=65 expectedSize=1 actualSize=6
 diff=0.718 computed=0.051 expected=0.769 (18723138, 140801) (Game, Team)
+outFirst=325 outSecond=133 expectedSize=4 actualSize=76
 diff=0.253 computed=1.000 expected=0.747 (49132, 89276) (Marathon, Sprint (running))
+outFirst=758 outSecond=965 expectedSize=71 actualSize=52
 diff=0.747 computed=0.000 expected=0.747 (26866, 18842323) (Seafood, Sea)
+outFirst=758 outSecond=723 expectedSize=53 actualSize=301
 diff=0.166 computed=1.000 expected=0.834 (26866, 10646) (Seafood, Food)
+outFirst=758 outSecond=335 expectedSize=24 actualSize=79
 diff=0.130 computed=1.000 expected=0.870 (26866, 46310) (Seafood, Lobster)
+outFirst=335 outSecond=723 expectedSize=23 actualSize=19
 diff=0.781 computed=0.000 expected=0.781 (46310, 10646) (Lobster, Food)
+outFirst=335 outSecond=758 expectedSize=24 actualSize=12
 diff=0.570 computed=0.000 expected=0.570 (46310, 32961) (Lobster, Wine)
+outFirst=723 outSecond=490 expectedSize=34 actualSize=331
 diff=0.378 computed=1.000 expected=0.622 (10646, 5355) (Food, Cooking)
+outFirst=240 outSecond=104 expectedSize=2 actualSize=1
 diff=0.634 computed=0.000 expected=0.634 (32441, 316723) (Video, Archive)
+outFirst=45 outSecond=102 expectedSize=0 actualSize=11
 diff=0.632 computed=0.204 expected=0.836 (3884434, 146996) (Championship, Tournament)
+outFirst=45 outSecond=357 expectedSize=1 actualSize=0
 diff=0.269 computed=0.000 expected=0.269 (946963, 15176) (Telephone line, Insurance)
+outFirst=324 outSecond=174 expectedSize=5 actualSize=3
 diff=0.394 computed=0.000 expected=0.394 (8376, 29392) (Day, Summer)
+outFirst=174 outSecond=386 expectedSize=6 actualSize=15
 diff=0.586 computed=0.130 expected=0.716 (29392, 37335) (Summer, Drought)
+outFirst=174 outSecond=519 expectedSize=8 actualSize=20
 diff=0.335 computed=0.228 expected=0.563 (29392, 21830) (Summer, Nature)
+outFirst=324 outSecond=70 expectedSize=2 actualSize=23
 diff=0.014 computed=0.767 expected=0.753 (8376, 191061) (Day, Dawn)
+outFirst=519 outSecond=513 expectedSize=26 actualSize=248
 diff=0.169 computed=1.000 expected=0.831 (21830, 558685) (Nature, Natural environment)
+outFirst=513 outSecond=567 expectedSize=28 actualSize=168
 diff=0.119 computed=1.000 expected=0.881 (558685, 9630) (Natural environment, Ecology)
+outFirst=519 outSecond=203 expectedSize=10 actualSize=11
 diff=0.604 computed=0.021 expected=0.625 (21830, 15822899) (Nature, Man)
+outFirst=203 outSecond=244 expectedSize=4 actualSize=40
 diff=0.162 computed=0.992 expected=0.830 (15822899, 33183) (Man, Woman)
+outFirst=203 outSecond=285 expectedSize=5 actualSize=6
 diff=0.506 computed=0.019 expected=0.525 (15822899, 56231) (Man, Governor)
+outFirst=464 outSecond=151 expectedSize=6 actualSize=132
 diff=0.147 computed=1.000 expected=0.853 (20171, 7397035) (Murder, Manslaughter)
+outFirst=625 outSecond=84 expectedSize=5 actualSize=20
 diff=0.260 computed=0.428 expected=0.688 (22348, 224515) (Opera, Performance)
+outFirst=733 outSecond=421 expectedSize=30 actualSize=90
 diff=0.228 computed=1.000 expected=0.772 (29831, 21555729) (Television, Film)
+outFirst=266 outSecond=230 expectedSize=6 actualSize=2
 diff=0.194 computed=0.000 expected=0.194 (192727, 1723133) (Luck, Girl)
+outFirst=496 outSecond=1068 expectedSize=52 actualSize=32
 diff=0.369 computed=0.000 expected=0.369 (43254, 19728) (Morality, Marriage)
+outFirst=1208 outSecond=1142 expectedSize=135 actualSize=175
 diff=0.253 computed=0.997 expected=0.744 (3966054, 3383) (Mexico, Brazil)
+outFirst=443 outSecond=191 expectedSize=8 actualSize=1
 diff=0.625 computed=0.000 expected=0.625 (10401954, 378010) (Family, Planning)
+outFirst=625 outSecond=386 expectedSize=23 actualSize=0
 diff=0.263 computed=0.000 expected=0.263 (22348, 14543) (Opera, Industry)
+outFirst=208 outSecond=88 expectedSize=1 actualSize=1
 diff=0.531 computed=0.000 expected=0.531 (19022, 751115) (Measurement, Topographic prominence)
+outFirst=79 outSecond=123 expectedSize=0 actualSize=7
 diff=0.654 computed=0.077 expected=0.731 (5165, 6784) (Country, Citizenship)
+outFirst=461 outSecond=52 expectedSize=2 actualSize=2
 diff=0.575 computed=0.000 expected=0.575 (22915, 3488351) (Planet, People)
+outFirst=458 outSecond=780 expectedSize=35 actualSize=19
 diff=0.347 computed=0.000 expected=0.347 (297724, 18839) (Experience, Music)
+outFirst=780 outSecond=52 expectedSize=3 actualSize=2
 diff=0.363 computed=0.000 expected=0.363 (18839, 160483) (Music, Project)
+outFirst=489 outSecond=387 expectedSize=18 actualSize=21
 diff=0.524 computed=0.032 expected=0.556 (12581, 19042) (Glass, Metal)
+outFirst=616 outSecond=387 expectedSize=23 actualSize=190
 diff=0.217 computed=1.000 expected=0.783 (904, 19042) (Aluminium, Metal)
+outFirst=660 outSecond=283 expectedSize=18 actualSize=258
 diff=0.612 computed=1.000 expected=0.388 (22934, 651358) (Probability, Credibility)
+outFirst=30 outSecond=181 expectedSize=0 actualSize=0
 diff=0.531 computed=0.000 expected=0.531 (3218952, 937531) (Collection (artwork), Souvenir)
+outFirst=176 outSecond=28 expectedSize=0 actualSize=1
 diff=0.661 computed=0.020 expected=0.681 (236918, 201480) (Concert, Virtuoso)
+outFirst=1218 outSecond=979 expectedSize=117 actualSize=58
 diff=0.759 computed=0.000 expected=0.759 (25423, 15613) (Rock music, Jazz)
+outFirst=362 outSecond=78 expectedSize=2 actualSize=3
 diff=0.700 computed=0.019 expected=0.719 (37585, 1690649) (Museum, Theater (structure))
+outFirst=250 outSecond=658 expectedSize=16 actualSize=8
 diff=0.438 computed=0.000 expected=0.438 (22649, 21296224) (Observation, Architecture)
+outFirst=274 outSecond=136 expectedSize=3 actualSize=5
 diff=0.628 computed=0.025 expected=0.653 (27667, 38714) (Space, World)
+outFirst=451 outSecond=136 expectedSize=6 actualSize=4
 diff=0.619 computed=0.000 expected=0.619 (1866009, 38714) (Environmentalism, World)
+outFirst=347 outSecond=305 expectedSize=10 actualSize=99
 diff=0.200 computed=1.000 expected=0.800 (19009110, 70807) (Rain, Thunderstorm)
+outFirst=347 outSecond=280 expectedSize=9 actualSize=33
 diff=0.065 computed=0.865 expected=0.800 (19009110, 50482) (Rain, Flood)
+outFirst=233 outSecond=418 expectedSize=9 actualSize=38
 diff=0.123 computed=0.957 expected=0.834 (33978, 73231) (Weather, Weather forecasting)
+outFirst=285 outSecond=138 expectedSize=3 actualSize=3
 diff=0.634 computed=0.000 expected=0.634 (56231, 382507) (Governor, Office)
+outFirst=658 outSecond=136 expectedSize=8 actualSize=3
 diff=0.378 computed=0.000 expected=0.378 (21296224, 5881) (Architecture, Century)
+outFirst=765 outSecond=1354 expectedSize=101 actualSize=306
 diff=0.200 computed=1.000 expected=0.800 (11015252, 15641) (Vladimir Lenin, Joseph Stalin)
+outFirst=765 outSecond=772 expectedSize=58 actualSize=177
 diff=0.200 computed=1.000 expected=0.800 (11015252, 1904053) (Vladimir Lenin, Marxism)
+outFirst=765 outSecond=319 expectedSize=24 actualSize=175
 diff=0.067 computed=1.000 expected=0.933 (11015252, 18687) (Vladimir Lenin, Leninism)
+outFirst=765 outSecond=305 expectedSize=22 actualSize=31
 diff=0.646 computed=0.121 expected=0.767 (11015252, 22986) (Vladimir Lenin, Politics)
+outFirst=765 outSecond=1012 expectedSize=76 actualSize=5
 diff=0.000 computed=0.000 expected=0.000 (11015252, 21197) (Vladimir Lenin, Nintendo)
+outFirst=765 outSecond=277 expectedSize=20 actualSize=4
 diff=0.000 computed=0.000 expected=0.000 (11015252, 372478) (Vladimir Lenin, Video game industry)
+outFirst=765 outSecond=368 expectedSize=27 actualSize=125
 diff=0.467 computed=1.000 expected=0.533 (11015252, 275417) (Vladimir Lenin, Socialism in One Country)
+outFirst=1354 outSecond=368 expectedSize=49 actualSize=315
 diff=0.167 computed=1.000 expected=0.833 (15641, 275417) (Joseph Stalin, Socialism in One Country)
+outFirst=1354 outSecond=772 expectedSize=102 actualSize=158
 diff=0.267 computed=1.000 expected=0.733 (15641, 1904053) (Joseph Stalin, Marxism)
+outFirst=1354 outSecond=319 expectedSize=42 actualSize=158
 diff=0.233 computed=1.000 expected=0.767 (15641, 18687) (Joseph Stalin, Leninism)
+outFirst=1354 outSecond=305 expectedSize=40 actualSize=21
 diff=0.733 computed=0.000 expected=0.733 (15641, 22986) (Joseph Stalin, Politics)
+outFirst=1354 outSecond=1012 expectedSize=134 actualSize=7
 diff=0.000 computed=0.000 expected=0.000 (15641, 21197) (Joseph Stalin, Nintendo)
+outFirst=1354 outSecond=277 expectedSize=36 actualSize=6
 diff=0.000 computed=0.000 expected=0.000 (15641, 372478) (Joseph Stalin, Video game industry)
+outFirst=101 outSecond=277 expectedSize=2 actualSize=18
 diff=0.347 computed=0.453 expected=0.800 (213502, 372478) (Prince of Persia (1989 video game), Video game industry)
+outFirst=101 outSecond=772 expectedSize=7 actualSize=1
 diff=0.000 computed=0.000 expected=0.000 (213502, 1904053) (Prince of Persia (1989 video game), Marxism)
+outFirst=101 outSecond=14 expectedSize=0 actualSize=0
 diff=0.000 computed=0.000 expected=0.000 (213502, 26673489) (Prince of Persia (1989 video game), Nanping school massacre)
+outFirst=101 outSecond=927 expectedSize=9 actualSize=0
 diff=0.000 computed=0.000 expected=0.000 (213502, 16743) (Prince of Persia (1989 video game), Karl Marx)
+outFirst=101 outSecond=305 expectedSize=3 actualSize=0
 diff=0.000 computed=0.000 expected=0.000 (213502, 22986) (Prince of Persia (1989 video game), Politics)
+outFirst=144 outSecond=101 expectedSize=1 actualSize=22
 diff=0.091 computed=0.758 expected=0.667 (27801, 213502) (Super Mario Kart, Prince of Persia (1989 video game))
+outFirst=144 outSecond=1012 expectedSize=14 actualSize=42
 diff=0.216 computed=0.949 expected=0.733 (27801, 21197) (Super Mario Kart, Nintendo)
+outFirst=144 outSecond=277 expectedSize=3 actualSize=20
 diff=0.295 computed=0.505 expected=0.800 (27801, 372478) (Super Mario Kart, Video game industry)
+outFirst=144 outSecond=765 expectedSize=10 actualSize=1
 diff=0.000 computed=0.000 expected=0.000 (27801, 11015252) (Super Mario Kart, Vladimir Lenin)
+outFirst=144 outSecond=305 expectedSize=4 actualSize=1
 diff=0.000 computed=0.000 expected=0.000 (27801, 22986) (Super Mario Kart, Politics)
+outFirst=772 outSecond=927 expectedSize=70 actualSize=329
 diff=0.067 computed=1.000 expected=0.933 (1904053, 16743) (Marxism, Karl Marx)
+outFirst=772 outSecond=765 expectedSize=58 actualSize=177
 diff=0.200 computed=1.000 expected=0.800 (1904053, 11015252) (Marxism, Vladimir Lenin)
+outFirst=772 outSecond=305 expectedSize=23 actualSize=42
 diff=0.163 computed=0.670 expected=0.833 (1904053, 22986) (Marxism, Politics)
+outFirst=669 outSecond=816 expectedSize=53 actualSize=158
 diff=0.167 computed=1.000 expected=0.833 (18842471, 11466) (Spanish Civil War, Francisco Franco)
+outFirst=614 outSecond=487 expectedSize=29 actualSize=85
 diff=0.167 computed=1.000 expected=0.833 (18933396, 684813) (Augusto Pinochet, 1973 Chilean coup d'état)
+outFirst=487 outSecond=51 expectedSize=2 actualSize=1
 diff=0.000 computed=0.000 expected=0.000 (684813, 113929) (1973 Chilean coup d'état, Packwood, Iowa)
+outFirst=487 outSecond=544 expectedSize=26 actualSize=3
 diff=0.000 computed=0.000 expected=0.000 (684813, 25735) (1973 Chilean coup d'état, Rugby league)
+outFirst=40 outSecond=544 expectedSize=2 actualSize=5
 diff=0.731 computed=0.036 expected=0.767 (14978550, 25735) (Joe Westerman, Rugby league)
+outFirst=14 outSecond=487 expectedSize=0 actualSize=0
 diff=0.000 computed=0.000 expected=0.000 (26673489, 684813) (Nanping school massacre, 1973 Chilean coup d'état)
+outFirst=40 outSecond=382 expectedSize=1 actualSize=11
 diff=0.636 computed=0.164 expected=0.800 (14788961, 12436) (Schioppettino, Grape)
+outFirst=40 outSecond=669 expectedSize=2 actualSize=1
 diff=0.000 computed=0.000 expected=0.000 (14788961, 18842471) (Schioppettino, Spanish Civil War)
+outFirst=40 outSecond=1012 expectedSize=3 actualSize=1
 diff=0.000 computed=0.000 expected=0.000 (14788961, 21197) (Schioppettino, Nintendo)
+outFirst=40 outSecond=101 expectedSize=0 actualSize=0
 diff=0.000 computed=0.000 expected=0.000 (14788961, 213502) (Schioppettino, Prince of Persia (1989 video game))
+outFirst=40 outSecond=144 expectedSize=0 actualSize=0
 diff=0.000 computed=0.000 expected=0.000 (14788961, 27801) (Schioppettino, Super Mario Kart)
+outFirst=40 outSecond=277 expectedSize=1 actualSize=0
 diff=0.000 computed=0.000 expected=0.000 (14788961, 372478) (Schioppettino, Video game industry)
+outFirst=193 outSecond=838 expectedSize=15 actualSize=5
 diff=0.733 computed=0.000 expected=0.733 (767894, 30012) (Pocket watch, Time)
+outFirst=193 outSecond=487 expectedSize=9 actualSize=2
 diff=0.000 computed=0.000 expected=0.000 (767894, 684813) (Pocket watch, 1973 Chilean coup d'état)
+outFirst=193 outSecond=382 expectedSize=7 actualSize=3
 diff=0.000 computed=0.000 expected=0.000 (767894, 12436) (Pocket watch, Grape)
+outFirst=193 outSecond=669 expectedSize=12 actualSize=3
 diff=0.000 computed=0.000 expected=0.000 (767894, 18842471) (Pocket watch, Spanish Civil War)
+outFirst=193 outSecond=1012 expectedSize=19 actualSize=3
 diff=0.000 computed=0.000 expected=0.000 (767894, 21197) (Pocket watch, Nintendo)
+outFirst=193 outSecond=101 expectedSize=1 actualSize=1
 diff=0.033 computed=0.000 expected=0.033 (767894, 213502) (Pocket watch, Prince of Persia (1989 video game))
+outFirst=193 outSecond=144 expectedSize=2 actualSize=2
 diff=0.033 computed=0.000 expected=0.033 (767894, 27801) (Pocket watch, Super Mario Kart)
+outFirst=193 outSecond=277 expectedSize=5 actualSize=2
 diff=0.000 computed=0.000 expected=0.000 (767894, 372478) (Pocket watch, Video game industry)
+outFirst=838 outSecond=487 expectedSize=40 actualSize=2
 diff=0.033 computed=0.000 expected=0.033 (30012, 684813) (Time, 1973 Chilean coup d'état)
+outFirst=838 outSecond=382 expectedSize=31 actualSize=7
 diff=0.000 computed=0.000 expected=0.000 (30012, 12436) (Time, Grape)
+outFirst=838 outSecond=669 expectedSize=55 actualSize=6
 diff=0.100 computed=0.000 expected=0.100 (30012, 18842471) (Time, Spanish Civil War)
+outFirst=838 outSecond=1012 expectedSize=83 actualSize=3
 diff=0.000 computed=0.000 expected=0.000 (30012, 21197) (Time, Nintendo)
+outFirst=838 outSecond=101 expectedSize=8 actualSize=0
 diff=0.200 computed=0.000 expected=0.200 (30012, 213502) (Time, Prince of Persia (1989 video game))
+outFirst=838 outSecond=144 expectedSize=11 actualSize=1
 diff=0.100 computed=0.000 expected=0.100 (30012, 27801) (Time, Super Mario Kart)
+outFirst=838 outSecond=277 expectedSize=22 actualSize=5
 diff=0.100 computed=0.000 expected=0.100 (30012, 372478) (Time, Video game industry)
+outFirst=712 outSecond=487 expectedSize=34 actualSize=3
 diff=0.133 computed=0.000 expected=0.133 (13692155, 684813) (Philosophy, 1973 Chilean coup d'état)
+outFirst=712 outSecond=382 expectedSize=26 actualSize=6
 diff=0.000 computed=0.000 expected=0.000 (13692155, 12436) (Philosophy, Grape)
+outFirst=712 outSecond=669 expectedSize=46 actualSize=8
 diff=0.167 computed=0.000 expected=0.167 (13692155, 18842471) (Philosophy, Spanish Civil War)
+outFirst=712 outSecond=1012 expectedSize=70 actualSize=3
 diff=0.000 computed=0.000 expected=0.000 (13692155, 21197) (Philosophy, Nintendo)
+outFirst=712 outSecond=101 expectedSize=7 actualSize=0
 diff=0.000 computed=0.000 expected=0.000 (13692155, 213502) (Philosophy, Prince of Persia (1989 video game))
+outFirst=712 outSecond=144 expectedSize=10 actualSize=1
 diff=0.000 computed=0.000 expected=0.000 (13692155, 27801) (Philosophy, Super Mario Kart)
+outFirst=712 outSecond=277 expectedSize=19 actualSize=2
 diff=0.033 computed=0.000 expected=0.033 (13692155, 372478) (Philosophy, Video game industry)
+outFirst=539 outSecond=487 expectedSize=25 actualSize=1
 diff=0.100 computed=0.000 expected=0.100 (47921, 684813) (Free will, 1973 Chilean coup d'état)
+outFirst=539 outSecond=382 expectedSize=20 actualSize=5
 diff=0.000 computed=0.000 expected=0.000 (47921, 12436) (Free will, Grape)
+outFirst=539 outSecond=669 expectedSize=35 actualSize=4
 diff=0.100 computed=0.000 expected=0.100 (47921, 18842471) (Free will, Spanish Civil War)
+outFirst=539 outSecond=1012 expectedSize=53 actualSize=2
 diff=0.000 computed=0.000 expected=0.000 (47921, 21197) (Free will, Nintendo)
+outFirst=539 outSecond=101 expectedSize=5 actualSize=0
 diff=0.033 computed=0.000 expected=0.033 (47921, 213502) (Free will, Prince of Persia (1989 video game))
+outFirst=539 outSecond=144 expectedSize=7 actualSize=1
 diff=0.000 computed=0.000 expected=0.000 (47921, 27801) (Free will, Super Mario Kart)
+outFirst=539 outSecond=277 expectedSize=14 actualSize=3
 diff=0.000 computed=0.000 expected=0.000 (47921, 372478) (Free will, Video game industry)
+outFirst=539 outSecond=655 expectedSize=34 actualSize=41
 diff=0.019 computed=0.081 expected=0.100 (47921, 22939) (Free will, Physics)
+outFirst=539 outSecond=192 expectedSize=10 actualSize=142
 diff=0.267 computed=1.000 expected=0.733 (47921, 690278) (Free will, Choice)
+outFirst=539 outSecond=306 expectedSize=16 actualSize=74
 diff=0.100 computed=1.000 expected=0.900 (47921, 79432) (Free will, Will (philosophy))
+outFirst=539 outSecond=463 expectedSize=24 actualSize=136
 diff=0.267 computed=1.000 expected=0.733 (47921, 9258) (Free will, Ethics)
+outFirst=655 outSecond=487 expectedSize=31 actualSize=2
 diff=0.000 computed=0.000 expected=0.000 (22939, 684813) (Physics, 1973 Chilean coup d'état)
+outFirst=655 outSecond=382 expectedSize=24 actualSize=3
 diff=0.000 computed=0.000 expected=0.000 (22939, 12436) (Physics, Grape)
+outFirst=655 outSecond=669 expectedSize=43 actualSize=4
 diff=0.000 computed=0.000 expected=0.000 (22939, 18842471) (Physics, Spanish Civil War)
+outFirst=655 outSecond=1012 expectedSize=65 actualSize=4
 diff=0.167 computed=0.000 expected=0.167 (22939, 21197) (Physics, Nintendo)
+outFirst=655 outSecond=101 expectedSize=6 actualSize=1
 diff=0.200 computed=0.000 expected=0.200 (22939, 213502) (Physics, Prince of Persia (1989 video game))
+outFirst=655 outSecond=144 expectedSize=9 actualSize=1
 diff=0.200 computed=0.000 expected=0.200 (22939, 27801) (Physics, Super Mario Kart)
+outFirst=655 outSecond=277 expectedSize=17 actualSize=4
 diff=0.500 computed=0.000 expected=0.500 (22939, 372478) (Physics, Video game industry)
+outFirst=655 outSecond=655 expectedSize=42 actualSize=655
 diff=0.000 computed=1.000 expected=1.000 (22939, 22939) (Physics, Physics)
+outFirst=655 outSecond=192 expectedSize=12 actualSize=13
 diff=0.179 computed=0.021 expected=0.200 (22939, 690278) (Physics, Choice)
+outFirst=655 outSecond=306 expectedSize=19 actualSize=24
 diff=0.149 computed=0.051 expected=0.200 (22939, 79432) (Physics, Will (philosophy))
+outFirst=655 outSecond=463 expectedSize=29 actualSize=30
 diff=0.281 computed=0.019 expected=0.300 (22939, 9258) (Physics, Ethics)
+outFirst=192 outSecond=487 expectedSize=9 actualSize=2
 diff=0.100 computed=0.000 expected=0.100 (690278, 684813) (Choice, 1973 Chilean coup d'état)
+outFirst=192 outSecond=382 expectedSize=7 actualSize=1
 diff=0.000 computed=0.000 expected=0.000 (690278, 12436) (Choice, Grape)
+outFirst=192 outSecond=669 expectedSize=12 actualSize=3
 diff=0.100 computed=0.000 expected=0.100 (690278, 18842471) (Choice, Spanish Civil War)
+outFirst=192 outSecond=1012 expectedSize=19 actualSize=4
 diff=0.000 computed=0.000 expected=0.000 (690278, 21197) (Choice, Nintendo)
+outFirst=192 outSecond=101 expectedSize=1 actualSize=0
 diff=0.033 computed=0.000 expected=0.033 (690278, 213502) (Choice, Prince of Persia (1989 video game))
+outFirst=192 outSecond=144 expectedSize=2 actualSize=1
 diff=0.033 computed=0.000 expected=0.033 (690278, 27801) (Choice, Super Mario Kart)
+outFirst=192 outSecond=277 expectedSize=5 actualSize=2
 diff=0.033 computed=0.000 expected=0.033 (690278, 372478) (Choice, Video game industry)
+outFirst=192 outSecond=192 expectedSize=3 actualSize=192
 diff=0.000 computed=1.000 expected=1.000 (690278, 690278) (Choice, Choice)
+outFirst=192 outSecond=306 expectedSize=5 actualSize=40
 diff=0.290 computed=0.990 expected=0.700 (690278, 79432) (Choice, Will (philosophy))
+outFirst=192 outSecond=463 expectedSize=8 actualSize=42
 diff=0.387 computed=0.987 expected=0.600 (690278, 9258) (Choice, Ethics)
+outFirst=306 outSecond=487 expectedSize=14 actualSize=1
 diff=0.067 computed=0.000 expected=0.067 (79432, 684813) (Will (philosophy), 1973 Chilean coup d'état)
+outFirst=306 outSecond=382 expectedSize=11 actualSize=4
 diff=0.000 computed=0.000 expected=0.000 (79432, 12436) (Will (philosophy), Grape)
+outFirst=306 outSecond=669 expectedSize=20 actualSize=7
 diff=0.100 computed=0.000 expected=0.100 (79432, 18842471) (Will (philosophy), Spanish Civil War)
+outFirst=306 outSecond=1012 expectedSize=30 actualSize=4
 diff=0.000 computed=0.000 expected=0.000 (79432, 21197) (Will (philosophy), Nintendo)
+outFirst=306 outSecond=101 expectedSize=3 actualSize=1
 diff=0.000 computed=0.000 expected=0.000 (79432, 213502) (Will (philosophy), Prince of Persia (1989 video game))
+outFirst=306 outSecond=144 expectedSize=4 actualSize=2
 diff=0.000 computed=0.000 expected=0.000 (79432, 27801) (Will (philosophy), Super Mario Kart)
+outFirst=306 outSecond=277 expectedSize=8 actualSize=3
 diff=0.000 computed=0.000 expected=0.000 (79432, 372478) (Will (philosophy), Video game industry)
+outFirst=306 outSecond=655 expectedSize=19 actualSize=24
 diff=0.018 computed=0.051 expected=0.033 (79432, 22939) (Will (philosophy), Physics)
+outFirst=306 outSecond=306 expectedSize=9 actualSize=306
 diff=0.000 computed=1.000 expected=1.000 (79432, 79432) (Will (philosophy), Will (philosophy))
+outFirst=463 outSecond=487 expectedSize=22 actualSize=1
 diff=0.267 computed=0.000 expected=0.267 (9258, 684813) (Ethics, 1973 Chilean coup d'état)
+outFirst=463 outSecond=382 expectedSize=17 actualSize=2
 diff=0.033 computed=0.000 expected=0.033 (9258, 12436) (Ethics, Grape)
+outFirst=463 outSecond=669 expectedSize=30 actualSize=4
 diff=0.200 computed=0.000 expected=0.200 (9258, 18842471) (Ethics, Spanish Civil War)
+outFirst=463 outSecond=1012 expectedSize=46 actualSize=2
 diff=0.033 computed=0.000 expected=0.033 (9258, 21197) (Ethics, Nintendo)
+outFirst=463 outSecond=101 expectedSize=4 actualSize=0
 diff=0.033 computed=0.000 expected=0.033 (9258, 213502) (Ethics, Prince of Persia (1989 video game))
+outFirst=463 outSecond=144 expectedSize=6 actualSize=1
 diff=0.000 computed=0.000 expected=0.000 (9258, 27801) (Ethics, Super Mario Kart)
+outFirst=463 outSecond=277 expectedSize=12 actualSize=4
 diff=0.300 computed=0.000 expected=0.300 (9258, 372478) (Ethics, Video game industry)
+outFirst=463 outSecond=463 expectedSize=21 actualSize=463
 diff=0.000 computed=1.000 expected=1.000 (9258, 9258) (Ethics, Ethics)
+outFirst=274 outSecond=382 expectedSize=10 actualSize=47
 diff=0.461 computed=0.994 expected=0.533 (4984440, 12436) (Orange (fruit), Grape)
+outFirst=215 outSecond=204 expectedSize=4 actualSize=53
 diff=0.500 computed=1.000 expected=0.500 (51257, 2455842) (Peach, Strawberry)
+outFirst=162 outSecond=155 expectedSize=2 actualSize=37
 diff=0.457 computed=0.990 expected=0.533 (24278, 56887) (Pear, Pineapple)
+outFirst=382 outSecond=162 expectedSize=6 actualSize=47
 diff=0.498 computed=0.998 expected=0.500 (12436, 24278) (Grape, Pear)
+outFirst=204 outSecond=215 expectedSize=4 actualSize=53
 diff=0.500 computed=1.000 expected=0.500 (2455842, 51257) (Strawberry, Peach)
+outFirst=315 outSecond=336 expectedSize=10 actualSize=11
 diff=0.379 computed=0.021 expected=0.400 (18313, 23680998) (Louis Armstrong, Justin Bieber)
+outFirst=932 outSecond=1093 expectedSize=100 actualSize=55
 diff=0.500 computed=0.000 expected=0.500 (5052197, 15852) (Elton John, John Lennon)
+outFirst=1093 outSecond=336 expectedSize=36 actualSize=18
 diff=0.433 computed=0.000 expected=0.433 (15852, 23680998) (John Lennon, Justin Bieber)
+outFirst=690 outSecond=336 expectedSize=22 actualSize=26
 diff=0.361 computed=0.039 expected=0.400 (60192, 23680998) (Bruce Springsteen, Justin Bieber)
+outFirst=690 outSecond=1093 expectedSize=74 actualSize=35
 diff=0.533 computed=0.000 expected=0.533 (60192, 15852) (Bruce Springsteen, John Lennon)
+outFirst=932 outSecond=315 expectedSize=28 actualSize=18
 diff=0.500 computed=0.000 expected=0.500 (5052197, 18313) (Elton John, Louis Armstrong)
+outFirst=1093 outSecond=1440 expectedSize=154 actualSize=13
 diff=0.500 computed=0.000 expected=0.500 (15852, 32611) (John Lennon, Vietnam War)
+outFirst=690 outSecond=1440 expectedSize=97 actualSize=8
 diff=0.033 computed=0.000 expected=0.033 (60192, 32611) (Bruce Springsteen, Vietnam War)
+outFirst=932 outSecond=1440 expectedSize=132 actualSize=2
 diff=0.033 computed=0.000 expected=0.033 (5052197, 32611) (Elton John, Vietnam War)
+outFirst=315 outSecond=1440 expectedSize=44 actualSize=10
 diff=0.000 computed=0.000 expected=0.000 (18313, 32611) (Louis Armstrong, Vietnam War)
+outFirst=710 outSecond=849 expectedSize=59 actualSize=23
 diff=0.333 computed=0.000 expected=0.333 (3722, 9317) (Berlin Wall, European Union)
+outFirst=710 outSecond=1059 expectedSize=73 actualSize=33
 diff=0.433 computed=0.000 expected=0.433 (3722, 21212) (Berlin Wall, Nazi Germany)
+outFirst=1059 outSecond=463 expectedSize=48 actualSize=3
 diff=0.300 computed=0.000 expected=0.300 (21212, 9258) (Nazi Germany, Ethics)
+outFirst=849 outSecond=406 expectedSize=33 actualSize=25
 diff=0.200 computed=0.000 expected=0.200 (9317, 34392) (European Union, Japanese yen)
+outFirst=1162 outSecond=1059 expectedSize=121 actualSize=556
 diff=0.133 computed=1.000 expected=0.867 (2731583, 21212) (Adolf Hitler, Nazi Germany)
+outFirst=1796 outSecond=816 expectedSize=144 actualSize=287
 diff=0.133 computed=1.000 expected=0.867 (10396793, 31045316) (The Holocaust, Nazism)
+outFirst=1796 outSecond=1059 expectedSize=187 actualSize=238
 diff=0.100 computed=1.000 expected=0.900 (10396793, 21212) (The Holocaust, Nazi Germany)
+outFirst=1162 outSecond=816 expectedSize=93 actualSize=480
 diff=0.100 computed=1.000 expected=0.900 (2731583, 31045316) (Adolf Hitler, Nazism)
+outFirst=206 outSecond=313 expectedSize=6 actualSize=165
 diff=0.200 computed=1.000 expected=0.800 (23140032, 53221) (Frodo Baggins, Gandalf)
+outFirst=102 outSecond=206 expectedSize=2 actualSize=1
 diff=0.067 computed=0.000 expected=0.067 (219810, 23140032) (Bow and arrow, Frodo Baggins)
+outFirst=297 outSecond=144 expectedSize=4 actualSize=1
 diff=0.300 computed=0.000 expected=0.300 (54176, 57875) (Human body, Soap)
+outFirst=297 outSecond=66 expectedSize=1 actualSize=1
 diff=0.233 computed=0.000 expected=0.233 (54176, 10303) (Human body, Evaporation)
+outFirst=144 outSecond=84 expectedSize=1 actualSize=4
 diff=0.036 computed=0.036 expected=0.000 (57875, 1147423) (Soap, Table (furniture))
+outFirst=373 outSecond=682 expectedSize=25 actualSize=7
 diff=0.000 computed=0.000 expected=0.000 (15135713, 22303) (Jim Morrison, Oxygen)
