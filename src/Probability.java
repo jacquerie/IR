@@ -20,6 +20,8 @@ public class Probability extends RelatednessMeasure {
         double expectedIntersectionSize = ((double) (outFirst.length * outSecond.length)) * P;
         double result = actualIntersectionSize - expectedIntersectionSize;
 
+        // System.out.println("outFirst=" + outFirst.length + " outSecond=" + outSecond.length + " expectedSize=" + (int) Math.floor(expectedIntersectionSize) + " actualSize=" + actualIntersectionSize);
+
         if (result <= 0) {
             return (float) 0;
         } else {
