@@ -16,13 +16,13 @@ public class Probability extends RelatednessMeasure {
         int[] outFirst = IRProjectHelper.getOutlinks(first);
         int[] outSecond = IRProjectHelper.getOutlinks(second);
 
-        double actualIntersectionSize = (double) getIntersectionSize(outFirst, outSecond);
+        int actualIntersectionSize = getIntersectionSize(outFirst, outSecond);
         double expectedIntersectionSize = ((double) (outFirst.length * outSecond.length)) * P;
-        double result = actualIntersectionSize - expectedIntersectionSize;
+        double result = (double) actualIntersectionSize - expectedIntersectionSize;
 
         // System.out.println("outFirst=" + outFirst.length + " outSecond=" + outSecond.length + " expectedSize=" + (int) Math.floor(expectedIntersectionSize) + " actualSize=" + actualIntersectionSize);
 
-        if (result <= 0) {
+        if (result < 0) {
             return (float) 0;
         } else {
             /* Estimates the cumulative distribution function of an unknown
